@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.active hr {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width:640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+
+#sub{
+ position: relative;
+  right: 60px;
+}
+
+#main{
+  position: relative;
+   right: 60px;
+ }
+
+ #filter{
+  position: relative;
+  right: 40px;
+ }
+
+/*  .sticky-div {
+  position: -webkit-sticky; /* For Safari */
+  /* position: sticky;
+  top: 600px; */ /* Adjust this value depending on where you want it to stick */
+  /* z-index: 100; */ /* Ensure it stays on top of other content */
+
+
+/* #fil.sticky {
+  position: -webkit-sticky; /* Safari */
+  /*  position: sticky;
+  top: 0; 
+  background-color: green; 
+  border: 2px solid #4CAF50; */
+/* }  */
